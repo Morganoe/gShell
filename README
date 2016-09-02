@@ -1,0 +1,18 @@
+--------
+--BUGS--
+--------
+1. Typing too fast in the middle of already typed characters (eg to correct spelling) can cause weird output and possible segfaults.
+
+2. Typing more than a few ESCs will cause a series of ANSI escape codes that can lead to weird output.  Has not crashed due to these though, simply clear them.
+
+-----------------------
+--Added Functionality--
+-----------------------
+1.) Added "history" command
+2.) Added arrow key history navigation (Up and Down arrows)
+3.) Added cd
+4.) Added non-ctrl-c exit "exit" and "Exit"
+5.) Added tab-tab ls as per extra credit
+6.) Added filename auto-complete (Type first n letters and press tab)
+
+TODO: Multiprocessesing with '&'
